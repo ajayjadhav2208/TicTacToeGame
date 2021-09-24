@@ -38,7 +38,7 @@ public class TicTacToeGame {
         }
     }
 
-    /* In this method we have to show case the Board.
+    /* In this method we have to showcase the Board.
      */
     static void showBoard(){
         System.out.println(); // Used for an empty line.
