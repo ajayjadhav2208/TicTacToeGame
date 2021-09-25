@@ -58,6 +58,12 @@ public class TicTacToeGame {
         if (indexNumber < 1 && indexNumber > 9){
             System.out.println("You Entered Invalid Position ");
             playerMove();
+
+            /* In this we are checking for empty space.
+             */
+        }else if(board[indexNumber] != ' ') {
+            System.out.println("The Index is already occupied kindly choose other index ");
+            playerMove();
         }
         else {
             board[indexNumber] = playerChoice;
@@ -74,8 +80,6 @@ public class TicTacToeGame {
         playerMove();
     }
 }
-
-
 
 
 
